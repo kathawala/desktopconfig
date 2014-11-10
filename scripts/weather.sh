@@ -20,6 +20,8 @@
   API=
 
   # Set URL for fetching weather information and an Error Msg for invalid input
+  # You can change the default location to retrieve weather from by modifying the
+  # end of this URL (e.g. ...TN/Memphis.xml instead of ...CA/Stanford.xml)
   URL=http://api.wunderground.com/api/$API/geolookup/conditions/q/CA/Stanford.xml
   ERR="Error: Arguments expected in form [City] [State]. Ex: weather Palo_Alto CA"
 

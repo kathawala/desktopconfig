@@ -1,0 +1,31 @@
+alignment bottom_middle
+background no
+cpu_avg_samples 2
+default_color peru
+draw_borders no
+draw_outline no
+draw_shades no
+use_xft yes
+xftfont DejaVu Sans Mono:size=16
+gap_x -170
+gap_y 400
+minimum_size 40 40
+net_avg_samples 2
+no_buffers yes
+out_to_console no
+out_to_stderr no
+extra_newline no
+own_window yes
+own_window_class Conky
+own_window_type normal
+own_window_hints undecorated,below,sticky,skip_taskbar,skip_pager
+own_window_transparent yes
+stippled_borders 0
+update_interval 1.0
+uppercase no
+use_spacer none
+double_buffer yes
+
+TEXT
+${font DejaVu Sans mono:size=20}${time %B %d}${font}
+${time %A}
